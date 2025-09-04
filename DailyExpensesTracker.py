@@ -51,5 +51,5 @@ Average expense: {avg}\n""")
     elif user_choice == 0:
         print_menu()
 
-    elif user_choice == choices:
+    elif user_choice not in choices:
         print("Invalid choice. Please try again.\n")
